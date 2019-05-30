@@ -1,4 +1,5 @@
-def speak_to_grandma(phrase)
+def speak_to_grandma(x)
+  x = phrase
   phrase = gets.chomp
   if phrase.downcase 
     puts "HUH?! SPEAK UP, SONNY!"
