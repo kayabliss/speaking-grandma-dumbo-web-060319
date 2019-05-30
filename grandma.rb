@@ -9,4 +9,4 @@ def speak_to_grandma(x)
   end
 end
 
-speak_to_grandma()
+speak_to_grandma(phrase)
