@@ -1,4 +1,5 @@
-def speak_to_grandma(phrase)
+def speak_to_grandma()
+  phrase = gets.chomp
   if phrase == !phrase.upcase
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase == phrase.upcase
