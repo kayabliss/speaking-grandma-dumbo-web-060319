@@ -1,12 +1,12 @@
-def speak_to_grandma()
-  phrase = gets.chomp
+def speak_to_grandma(phrase)
+  phrase = "I LOVE YOU GRANDMA"
   if phrase == !phrase.upcase
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase == phrase.upcase
     puts "NO, NOT SINCE 1938!"
-  else phrase == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
   end
+   phrase == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
 end
 
 speak_to_grandma()
